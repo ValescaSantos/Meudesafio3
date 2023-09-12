@@ -1,0 +1,140 @@
+
+html,body{
+    margin: 0;
+}
+header{
+    background-color: rgb(181, 153, 207);
+    color: black;
+    height: 66px;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+}
+
+#logo{
+  width: 85px;
+  position: absolute;
+  top: 10px;
+  margin-left: 5%;
+}
+
+#menu{
+    float: right;
+    margin-right: 5%;
+    list-style: none;
+    margin-top:0px;
+}
+
+li{
+    float:left;
+    padding: 20px 10px 20px 10px;
+}
+
+li:hover{
+    background-color: rgb(12, 11, 12);
+}
+
+#imagem_fundo{
+ background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2ysYjOQx6_XtCy2_aSvtKZlepBGRXt7xciQ&usqp=CAU);
+ height: 100%;
+ text-align: center;
+ background-size: cover;
+ 
+}
+
+#titulo{
+    color: rgb(54, 47, 47);
+    padding-top: 14% ;
+    font-size: 60px;
+    line-height: 0.6;
+    
+}
+
+#subititulo{
+    color: rgb(53, 46, 46);
+    margin-left: 20%;
+    margin-right: 20%;
+    border-top: 2px solid violet;
+    text-shadow: 1px 1px blueviolet;
+    
+}
+
+#acao{
+    color: rgb(0, 0, 0);
+    border: 1px rgb(172, 72, 172) solid;
+    padding: 15px 20px 15px 20px;
+}
+
+.icone{
+    width: 350px;
+   
+}
+
+section{
+   padding: 20px;
+   
+}
+
+.destaque{
+    background-color: rgb(181, 153, 207);
+   
+}
+.coluna{
+    float: left;
+    padding: 0 5%;
+    position: relative;
+    width: 40%;
+    
+}
+
+.justificado{
+    text-align: justify;
+    
+}
+
+.centralizado{
+    text-align: center;
+    
+}
+
+#dov{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.sobre{
+    text-align: center;
+    
+}
+
+footer{
+    background-color: rgb(181, 153, 215);
+    font: left;
+    width: 100%;
+    color: black;
+    
+}
+
+@media all and (max-width: 768px){
+ #menu{
+    visibility: hidden;
+ }
+.coluna, .dois, .três {
+    display: block;
+    width: 80%;
+    padding: 0;
+    margin: 10px auto;
+    float: none;
+}
+#logodivpx {
+  width: 100%;
+  border: 1px black;
+  position: relative;
+  text-align: center;
+}
+#logo{
+  margin-left: 180px;
+  transform: translateX(-50%);
+  
+}
